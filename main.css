@@ -59,7 +59,7 @@
 }
 
 .foot{
-    height: 20vh;
+    height: 150px;
     width: 100%;
     background-color:dodgerblue;
 }
@@ -146,11 +146,13 @@
     }
 
     .app{
-        height: 100vh;
+        height: 120vh;
         width: 100%;
     }
 
-    .foot{
-        height: 20vh;
+   .foot{
+        height: 300px;
+        width: 100%;
+        display: block;
     }
 }
