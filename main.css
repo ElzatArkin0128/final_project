@@ -2,8 +2,6 @@
     margin: 0;
 }
 
-
-
 .navbar {
     height: 80px;
     background-color: rgb(26, 108, 110);
@@ -40,6 +38,33 @@
 #checkbox {
     display: none;
 }
+
+.grid1{
+    width: 100%;
+    display: flex;
+}
+
+.counter{
+    height: 800px;
+    width: 60%;
+    background-color: green;
+    float: left;
+}
+
+.app{
+    height: 800px;
+    width: 40%;
+    background-color: greenyellow;
+    float: left;
+}
+
+.foot{
+    height: 20vh;
+    width: 100%;
+    background-color:dodgerblue;
+}
+
+
 
 
 @media only screen and (max-width: 845px) {
@@ -109,5 +134,23 @@
     #checkbox:focus ~ .menuButton{
         outline: 1px solid white;
         z-index: 1; /* Plasserer outline over menyen */
+    }
+
+    .grid1{
+        display:block;
+    }
+
+    .counter{
+        height:70vh;
+        width: 100%;
+    }
+
+    .app{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .foot{
+        height: 20vh;
     }
 }
