@@ -45,7 +45,6 @@
 }
 
 .counter{
-    height: 800px;
     grid-column: 1/6;
     grid-row: auto;
     background-color: green;
@@ -53,7 +52,6 @@
 }
 
 .app{
-    height: 800px;
     grid-column: 6/10;
     grid-row: auto;
     background-color: greenyellow;
