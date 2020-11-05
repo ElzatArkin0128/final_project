@@ -1,14 +1,20 @@
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 2vw;
+    color: ghostwhite;
 }
 
 .navbar {
     height: 80px;
     background-color: rgb(26, 108, 110);
-    position: fixed;
-    top: 0;
+   
     width: 100%;
     z-index: 999;
+    overflow: hidden;
 }
 
 .navbar nav {
@@ -40,26 +46,34 @@
 }
 
 .grid1{
-   
-    display: grid;
+    display: flex;
 }
 
 .counter{
-    grid-column: 1/6;
-    grid-row: auto;
+    flex: 2;
     background-color: green;
-    
+    margin-top: 2vw;
+    margin-left: 5%;
+    margin-bottom: 5vw;
+    margin-right: 5%;
 }
 
 .app{
-    grid-column: 6/10;
-    grid-row: auto;
+    flex: 1;
     background-color: greenyellow;
-    float: left;
+    margin-top: 2vw;
+    margin-left: 5%;
+    margin-bottom: 5vw;
+    margin-right: 5%;
+    border-radius: 3vw;
+}
+
+.app img{
+    width: 100%;
 }
 
 .foot{
-    height: 150px;
+    height: 20vw;
     width: 100%;
     background-color:dodgerblue;
 }
