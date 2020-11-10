@@ -4,6 +4,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    position: absolute;
+}
 
 p{
     margin: 2vw;
@@ -16,6 +19,7 @@ p{
     top: 0;
     width: 100%;
     z-index: 999;
+    position: fixed;
 }
 
 .navbar nav {
@@ -55,13 +59,12 @@ p{
     background-color: green;
     margin-top: 2vw;
     margin-left: 5%;
-    margin-bottom: 5vw;
     margin-right: 5%;
+
 }
 
 .app{
     flex: 1;
-    background-color: greenyellow;
     margin-top: 2vw;
     margin-left: 5%;
     margin-bottom: 5vw;
@@ -77,8 +80,8 @@ p{
     height: 15vw;
     width: 100%;
     background-color:dodgerblue;
-    position: relative;
     bottom: 0;
+    position: relative;
 }
 
 .sosial img{
@@ -188,8 +191,6 @@ p{
     }
 
     .navbar{
-        position: sticky;
+        position: fixed;
     }
-
-
 }
