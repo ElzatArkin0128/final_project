@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -71,10 +72,12 @@ p{
     width: 100%;
 }
 
-.foot{
-    height: 20vw;
+#foot{
+    height: 15vw;
     width: 100%;
     background-color:dodgerblue;
+    position: absolute;
+    bottom: 0;
 }
 
 .sosial img{
@@ -168,11 +171,12 @@ p{
         width: 100%;
     }
 
-   .foot{
-       padding-top: 50vw;
-        height: 300px;
+   #foot{
+        height: 5vw;
         width: 100%;
-        display: block;
+        background-color:dodgerblue;
+        position: absolute;
+        bottom: 0;
     }
 
     .navbar{
