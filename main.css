@@ -11,9 +11,9 @@ p{
 .navbar {
     height: 80px;
     background-color: rgb(26, 108, 110);
+    top: 0;
     width: 100%;
     z-index: 999;
-    overflow: hidden;
 }
 
 .navbar nav {
@@ -133,8 +133,7 @@ p{
     }
 
     #checkbox {
-        float: right;
-        display: block;
+        display: none;
         opacity: 0;
         position: absolute;
         right: 0;
