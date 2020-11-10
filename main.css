@@ -92,7 +92,7 @@ p{
 }
 
 .sosial img:hover{
-  background-color: white;
+  background-color: rgba(245, 240, 246, 1);
   border-radius: 20%;
   transition: 0.4s;
 }
