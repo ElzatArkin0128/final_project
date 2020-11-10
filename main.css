@@ -78,9 +78,18 @@ p{
 }
 
 .sosial img{
+    margin-top: 1%;
+    margin-left: 1%;
     width: 3%;
-    padding-top: 2%;
-    padding-left: 2%;
+    padding: 0.75%;
+}
+
+.sosial img:hover{
+  background-color: white;
+  border-radius: 20%;
+  transition: 0.4s;
+  opacity: 90%;
+
 }
 
 
@@ -97,7 +106,7 @@ p{
         display: inline-block;
         width: 100px;
         height: 100%;
-        position: relative; 
+        position: relative;
     }
 
     .burger-bar {
@@ -148,7 +157,7 @@ p{
     #checkbox:hover {
         cursor: pointer;
     }
-    
+
     #checkbox:focus ~ .menuButton{
         outline: 1px solid white;
         z-index: 1; /* Plasserer outline over menyen */
