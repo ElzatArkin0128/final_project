@@ -5,7 +5,14 @@
 }
 
 body{
-    position: absolute;
+    margin-top: 10vw;
+
+    /*
+    position: absolute;*/
+}
+
+h1{ 
+    margin: 2vw;
 }
 
 p{
@@ -13,6 +20,23 @@ p{
     color: ghostwhite;
 }
 
+footer {
+    padding-top: 3vw;
+    margin-top: 3vw;
+    background-color: dodgerblue;
+}
+
+/*
+#foot{
+    height: 15vw;
+    width: 100%;
+    background-color:dodgerblue;
+    bottom: 0;
+    position: relative;
+}*/
+
+
+/* NAVBAR */
 .navbar {
     height: 80px;
     background-color: rgb(26, 108, 110);
@@ -49,6 +73,12 @@ p{
 #checkbox {
     display: none;
 }
+ .navbar img{ 
+     height: 100%;
+ }
+
+/*end NAVBAR
+start FLEXGRID*/
 
 .grid1{
     display: flex;
@@ -60,7 +90,6 @@ p{
     margin-top: 2vw;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 .app{
@@ -76,14 +105,6 @@ p{
     width: 100%;
 }
 
-#foot{
-    height: 15vw;
-    width: 100%;
-    background-color:dodgerblue;
-    bottom: 0;
-    position: relative;
-}
-
 .sosial img{
     margin-top: 1%;
     margin-left: 1%;
@@ -97,8 +118,9 @@ p{
   transition: 0.4s;
 }
 
-
-
+#index .counter p{
+    font-size: 1000;
+}
 
 @media only screen and (max-width: 845px) {
     .navbar nav a {
