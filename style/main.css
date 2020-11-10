@@ -13,11 +13,13 @@ body{
 
 h1{ 
     margin: 2vw;
+    color: green;
 }
 
 p{
     margin: 2vw;
-    color: ghostwhite;
+    color: rgba(56, 95, 113, 100);
+
 }
 
 footer {
@@ -42,7 +44,7 @@ footer {
 /* NAVBAR */
 .navbar {
     height: 80px;
-    background-color: rgb(43, 117, 117);
+    background-color: darkgreen;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -89,19 +91,18 @@ start FLEXGRID*/
 
 .counter{
     flex: 2;
-    background-color: green;
     margin-top: 2vw;
+    margin-bottom:2vw;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 .app{
     flex: 1;
-    margin-top: 2vw;
+    margin-top: 3vw;
     margin-left: 5%;
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
     margin-right: 5%;
-    border-radius: 3vw;
 }
 
 .app img{
@@ -197,23 +198,23 @@ start FLEXGRID*/
         display:block;
     }
 
-    .counter{
-        height:70vh;
+    .counter{/*
+        height:70vh;*/
         width: 100%;
     }
 
-    .app{
-        height: 120vh;
+    .app{/*
+        height: 120vh;*/
         width: 100%;
     }
 
-   #foot{
+   /*#foot{
         height: 5vw;
         width: 100%;
         background-color:dodgerblue;
         position: absolute;
         bottom: 0;
-    }
+    }*/
 
     .navbar{
         position: fixed;

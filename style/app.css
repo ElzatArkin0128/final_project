@@ -1,12 +1,63 @@
-img{
+#app{
+    margin-top: -4vw;
+}
+
+#app .grid1{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#app .counter {
+    margin-right: 10%;
+}
+
+#app .counter p {
+    font-size: 1.5vw;
+    line-height: 1.8;
+}
+
+#app .app img {
+    border-radius: 10.5%;
+}
+.offset {
+    background-color: cornsilk;
+}
+
+@media only screen and (max-width: 730px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    #app {
+        margin-top: 30vw;
+        width: 100%;
+    }
+
+    #app .grid1{
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 96%;
+    }
+
+    #app .app img {
+        width: 95%;
+    }
+
+    #app .counter p {
+        font-size: 5vw;
+    }
+    
+}
+
+/*img{
     height: 85%;
     width: 70%;
     margin-top: -15%;
 }
-
+/*
 .counter{
     height: 42vw;
     width: 30vw;
     margin-top: -1%;
     
-}
+}*/
