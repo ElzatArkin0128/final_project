@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 p{
     margin: 2vw;
     color: ghostwhite;
@@ -76,7 +77,7 @@ p{
     height: 15vw;
     width: 100%;
     background-color:dodgerblue;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
