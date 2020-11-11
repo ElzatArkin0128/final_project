@@ -1,15 +1,26 @@
 #index p {
     font-size: 1.4vw;
-    text-align: center;
+    text-align: left;
+    line-height: 2;
 
 }
 
+#index h1{
+    font-weight: bold;
+    padding-top: 1.5vw;
+}
+
 #index span {
-    font-weight: 900;
+    font-weight: 700;
     color: green;
 }
 
 #index img {
     margin-top: 3em;
 }
+
+#index .app{
+    margin-top: 1vw;
+}
+
 

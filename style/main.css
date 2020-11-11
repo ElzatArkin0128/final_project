@@ -22,20 +22,7 @@ p{
     line-height: 3;
 }
 
-footer {
-    padding-top: 5vw;
-    margin-top: 11vw;
-    background-image: linear-gradient(green, darkgreen) ;
-}
 
-/*
-#foot{
-    height: 15vw;
-    width: 100%;
-    background-color:dodgerblue;
-    bottom: 0;
-    position: relative;
-}*/
 
 /* NAVBAR */
 .navbar {
@@ -120,7 +107,7 @@ start FLEXGRID*/
 .sosial img{
     margin-top: 1%;
     margin-left: 1%;
-    width: 3%;
+    width: 15%;
     padding: 0.75%;
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -129,12 +116,52 @@ start FLEXGRID*/
 .sosial img:hover{
     background-color: rgba(245, 240, 246, 1);
     border-radius: 20%;
-  transition: 0.4s;
+    transition: 0.4s;
 }
 
 #index .counter p{
     font-size: 1000;
 }
+
+#copyright{
+  color:rgba(245, 240, 246, 1);
+  font-size: 1.25vw; 
+  text-align: center; 
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+
+/*Footer part */
+
+footer {
+    margin-top: 11vw;
+    background-image: linear-gradient(green, darkgreen);
+    font-size: 1.6vw;
+}
+
+footer *{
+margin: 0 px;
+padding: 0 px;
+}
+
+
+footer .app a{
+    text-decoration: none;
+    font-size: 1.25vw;
+    color:  rgba(245, 240, 246, 1);
+    letter-spacing: 2px;
+}
+    
+footer li{
+        color: rgba(245, 240, 246, 1);
+        list-style: none;
+}
+
+    
+
+/* LE vandrendetelefon og nettbrett -del*/ 
+
 
 @media only screen and (max-width: 845px) {
     .navbar nav a {
