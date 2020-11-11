@@ -119,9 +119,7 @@ start FLEXGRID*/
     transition: 0.4s;
 }
 
-#index .counter p{
-    font-size: 1000;
-}
+
 
 #copyright{
   color:rgba(245, 240, 246, 1);
@@ -140,9 +138,21 @@ footer {
     font-size: 1.6vw;
 }
 
+footer .app{
+    text-align: center;
+}
+
 footer *{
 margin: 0 px;
 padding: 0 px;
+}
+
+footer h3{
+    color:rgba(245, 240, 246, 1);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 1.5vw;
+    margin-top: 0%;
 }
 
 
@@ -157,6 +167,21 @@ footer li{
         color: rgba(245, 240, 246, 1);
         list-style: none;
 }
+
+#makebutton{
+    background-color: green;
+    margin: 5vw;
+    border-radius: 10%;
+    font-size: 1.3vw;
+    padding: 5%;
+    line-height: 2.5;
+    text-align: center;
+    border: solid rgba(245, 240, 246, 1) 2px;
+    
+}
+
+
+
 
     
 
