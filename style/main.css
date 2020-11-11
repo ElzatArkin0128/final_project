@@ -19,7 +19,7 @@ h1{
 p{
     margin: 2vw;
     color: rgba(56, 95, 113, 100);
-
+    line-height: 3;
 }
 
 footer {
@@ -49,34 +49,18 @@ footer {
     width: 100%;
     z-index: 999;
     position: fixed;
-}
-
-.leftnav {
-    float: left; 
-    line-height: 80px;
-}
-
-.navbar .leftnav a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: bolder;
-    padding: 0px 30px;
-    padding-top: -20em;
-    letter-spacing: 2px;
-    height: 50%;
-    word-wrap: unset;
-
-}
-
-.navbar .leftnav a img{ 
     height: 80px;
+}
+
+.navbar a img {
+    height: 100%;
+    float: left;
+    margin-left: 2vw;
 }
 
 .navbar nav {
     float: right;
-    line-height: 120px;
+    line-height: 80px;
 }
 
 .navbar nav a {
