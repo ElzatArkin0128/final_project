@@ -1,0 +1,14 @@
+#index p {
+    font-size: 1.4vw;
+    text-align: center;
+
+}
+
+#index span {
+    font-weight: 900;
+    color: green;
+}
+
+#index img {
+    margin-top: 3em;
+}

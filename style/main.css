@@ -25,7 +25,7 @@ p{
 footer {
     padding-top: 5vw;
     margin-top: 11vw;
-    background-color: dodgerblue;
+    background-image: linear-gradient(green, darkgreen) ;
 }
 
 /*
@@ -37,14 +37,9 @@ footer {
     position: relative;
 }*/
 
-#logo{
-    padding-left: 7px;
-}
-
 /* NAVBAR */
 .navbar {
-    
-    background-color: darkgreen;
+    background-image: linear-gradient(darkgreen, green) ;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -118,6 +113,8 @@ start FLEXGRID*/
     margin-left: 1%;
     width: 3%;
     padding: 0.75%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 .sosial img:hover{
