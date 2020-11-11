@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+main{
     margin-top: 10vw;
 
     /*
@@ -43,7 +43,7 @@ footer {
 
 /* NAVBAR */
 .navbar {
-    height: 80px;
+    
     background-color: darkgreen;
     top: 0;
     width: 100%;
@@ -51,9 +51,32 @@ footer {
     position: fixed;
 }
 
+.leftnav {
+    float: left; 
+    line-height: 80px;
+}
+
+.navbar .leftnav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 0px 30px;
+    padding-top: -20em;
+    letter-spacing: 2px;
+    height: 50%;
+    word-wrap: unset;
+
+}
+
+.navbar .leftnav a img{ 
+    height: 80px;
+}
+
 .navbar nav {
     float: right;
-    line-height: 80px;
+    line-height: 120px;
 }
 
 .navbar nav a {
@@ -78,9 +101,6 @@ footer {
 #checkbox {
     display: none;
 }
- .navbar img{ 
-     height: 100%;
- }
 
 /*end NAVBAR
 start FLEXGRID*/
