@@ -81,6 +81,15 @@ footer {
     display: none;
 }
 
+.navbar a:hover {
+    background-color: green;
+    transition: 0.3s;
+}
+
+#current {
+    background-color: darkgreen;
+}
+
 /*end NAVBAR
 start FLEXGRID*/
 
@@ -118,8 +127,8 @@ start FLEXGRID*/
 }
 
 .sosial img:hover{
-  background-color: rgba(245, 240, 246, 1);
-  border-radius: 20%;
+    background-color: rgba(245, 240, 246, 1);
+    border-radius: 20%;
   transition: 0.4s;
 }
 
