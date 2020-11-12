@@ -17,4 +17,11 @@ width: 100%;
     padding-bottom: 1.5vw;
 }
 
+#contact .staff .app p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: green;
+    text-align: center;
+}
+
 
