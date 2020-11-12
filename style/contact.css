@@ -2,13 +2,19 @@
 width: 100%;
 }
 
-#contact .counter p{
+#contact .app p{
     font-size: 1.4vw;
     text-align: left;
     line-height: 2;
 }
 
-#contact .counter h1{
+#contact .app h1{
     font-weight: bold;
-    padding-top: 1.5vw;
+    margin-top: -2vw;
 }
+
+#contact .grid1{
+    padding-bottom: 1.5vw;
+}
+
+

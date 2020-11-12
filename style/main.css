@@ -156,29 +156,20 @@ footer h3{
 
 
 footer .app a{
-    text-decoration: none;
     font-size: 1.25vw;
     color:  rgba(245, 240, 246, 1);
     letter-spacing: 2px;
+}
+
+#contactinfo{
+text-align: left;
 }
     
 footer li{
         color: rgba(245, 240, 246, 1);
         list-style: none;
+        text-align: left;
 }
-
-#makebutton{
-    
-    background-color: green;
-    margin: 5vw;
-    border-radius: 15px;
-    font-size: 1.3vw;
-    padding: 5%;
-    line-height: 2.5;
-    text-align: center;
-    border: solid rgba(245, 240, 246, 1) 2px;  
-}
-
 
 /* Mediadel**********************************************************************************************/ 
 
