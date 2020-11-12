@@ -82,15 +82,11 @@ p{
     background-color: darkgreen;
 }
 
-/*end NAVBAR
+/*end NAVBAR----------------------------------------------------------------------------------------
 start FLEXGRID*/
 
 .grid1{
     display: flex;
-}
-
-.counter {
-    flex: 2;
 }
 
 .app{
@@ -102,9 +98,12 @@ start FLEXGRID*/
 }
 
 .app img {
-    width: fit-content;
+    width: fit-content; 
     height: auto;
-    
+}
+
+.counter{
+    flex:2;
 }
 
 .sosial img{
@@ -122,8 +121,6 @@ start FLEXGRID*/
     transition: 0.4s;
 }
 
-
-
 #copyright{
   color:rgba(245, 240, 246, 1);
   font-size: 1.25vw; 
@@ -132,8 +129,7 @@ start FLEXGRID*/
   line-height: 1;
 }
 
-
-/*Footer part */
+/*Footer part ------------------------------------------------------------------------------------------*/
 
 footer {
     margin-top: 11vw;
@@ -184,7 +180,7 @@ footer li{
 }
 
 
-/* LE vandrendetelefon og nettbrett -del*/ 
+/* Mediadel**********************************************************************************************/ 
 
 
 @media only screen and (max-width: 845px) {
