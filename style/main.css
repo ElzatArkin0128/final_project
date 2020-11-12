@@ -58,11 +58,15 @@ p{
 
 .menuButton {
     float: right;
-    line-height: 80px;
+    line-height: 1px;
     padding: 0px 20px;
     cursor: pointer;
     display: none;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
 }
+
 
 #checkbox {
     display: none;

@@ -1,6 +1,7 @@
 var body = document.querySelector("body");
 var checkbox = document.querySelector("#checkbox");
 var burgers = document.querySelectorAll(".burger-bar");
+var menu = document.querySelectorAll(".moob");
 var reloadLinks = document.querySelectorAll(".reload");
 
 window.addEventListener("resize", () => {
@@ -29,13 +30,13 @@ for (var i = 0; i < reloadLinks.length; i++) {
 function crossBurger() {
     body.style.overflowY = "hidden";
     burgers[0].style.transform = "rotate(45deg) translate(12px, 16px)";
-    burgers[1].style.visibility = "hidden";
-    burgers[2].style.transform = "rotate(-45deg) translate(12px, -16px)";
+    burgers[1].style.transform = "rotate(-45deg) translate(12px, -16px)";
+    menu[0].style.visibility = "hidden";
 }
 
 function uncrossBurger() {
     body.style.overflowY = "scroll";
     burgers[0].style.transform = "";
-    burgers[1].style.visibility = "visible";
-    burgers[2].style.transform = "";
+    burgers[1].style.transform = "";
+    menu[0].style.visibility = "visible";
 }
