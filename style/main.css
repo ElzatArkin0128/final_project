@@ -139,6 +139,8 @@ footer {
 
 footer .app{
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 2.32vw;
 }
 
 footer *{
@@ -159,6 +161,7 @@ footer .app a{
     font-size: 1.25vw;
     color:  rgba(245, 240, 246, 1);
     letter-spacing: 2px;
+    line-height: 1.9;
 }
 
 #contactinfo{
@@ -170,6 +173,14 @@ footer li{
         color: rgba(245, 240, 246, 1);
         list-style: none;
         text-align: left;
+}
+
+#rightalign{
+    text-align: right;
+
+}
+#rightalign h3{
+    text-align: right;
 }
 
 
