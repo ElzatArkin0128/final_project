@@ -15,8 +15,9 @@
     color: green;
 }
 
-#index img {
+#index .grid1 .app img {
     margin-top: 3em;
+    width: 100%;
 }
 
 #index .app{

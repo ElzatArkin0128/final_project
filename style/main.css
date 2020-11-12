@@ -89,6 +89,10 @@ start FLEXGRID*/
     display: flex;
 }
 
+.counter {
+    flex: 2;
+}
+
 .app{
     flex: 1;
     margin-top: 3vw;
@@ -100,7 +104,7 @@ start FLEXGRID*/
 .app img {
     width: fit-content;
     height: auto;
-    max-width: 220px;
+    
 }
 
 .sosial img{
