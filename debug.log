@@ -1,0 +1,7 @@
+[1111/160212.811:ERROR:directory_reader_win.cc(43)] FindFirstFile: Systemet finner ikke angitt bane. (0x3)
+[1112/015831.942:ERROR:process_reader_win.cc(123)] NtOpenThread: {Ingen tilgang.} En prosess har bedt om tilgang til et objekt, men slik tilgang er ikke innvilget. (0xc0000022)
+[1112/015831.944:ERROR:process_reader_win.cc(123)] NtOpenThread: {Ingen tilgang.} En prosess har bedt om tilgang til et objekt, men slik tilgang er ikke innvilget. (0xc0000022)
+[1112/015831.946:ERROR:exception_snapshot_win.cc(99)] thread ID 15692 not found in process
+[1112/015831.947:ERROR:exception_snapshot_win.cc(99)] thread ID 30364 not found in process
+[1112/015831.949:ERROR:process_reader_win.cc(123)] NtOpenThread: {Ingen tilgang.} En prosess har bedt om tilgang til et objekt, men slik tilgang er ikke innvilget. (0xc0000022)
+[1112/015831.949:ERROR:exception_snapshot_win.cc(99)] thread ID 24764 not found in process
