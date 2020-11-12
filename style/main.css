@@ -11,7 +11,7 @@ main{
     position: absolute;*/
 }
 
-h1{ 
+h1{
     margin: 2vw;
     color: green;
 }
@@ -98,7 +98,7 @@ start FLEXGRID*/
 }
 
 .app img {
-    width: fit-content; 
+    width: fit-content;
     height: auto;
 }
 
@@ -123,8 +123,8 @@ start FLEXGRID*/
 
 #copyright{
   color:rgba(245, 240, 246, 1);
-  font-size: 1.25vw; 
-  text-align: center; 
+  font-size: 1.25vw;
+  text-align: center;
   letter-spacing: 1px;
   line-height: 1;
 }
@@ -165,14 +165,15 @@ footer .app a{
 text-align: left;
 }
     
+
 footer li{
         color: rgba(245, 240, 246, 1);
         list-style: none;
         text-align: left;
 }
 
-/* Mediadel**********************************************************************************************/ 
 
+/* Mediadel**********************************************************************************************/ 
 
 @media only screen and (max-width: 845px) {
     .navbar nav a {
