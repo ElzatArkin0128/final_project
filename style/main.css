@@ -97,8 +97,10 @@ start FLEXGRID*/
     margin-right: 5%;
 }
 
-.app img{
-    width: 100%;
+.app img {
+    width: fit-content;
+    height: auto;
+    max-width: 220px;
 }
 
 .sosial img{
