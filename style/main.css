@@ -84,14 +84,6 @@ start FLEXGRID*/
     display: flex;
 }
 
-.counter{
-    flex: 2;
-    margin-top: 2vw;
-    margin-bottom:2vw;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 .app{
     flex: 1;
     margin-top: 3vw;
@@ -169,21 +161,17 @@ footer li{
 }
 
 #makebutton{
+    
     background-color: green;
     margin: 5vw;
-    border-radius: 10%;
+    border-radius: 15px;
     font-size: 1.3vw;
     padding: 5%;
     line-height: 2.5;
     text-align: center;
-    border: solid rgba(245, 240, 246, 1) 2px;
-    
+    border: solid rgba(245, 240, 246, 1) 2px;  
 }
 
-
-
-
-    
 
 /* LE vandrendetelefon og nettbrett -del*/ 
 
