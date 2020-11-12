@@ -12,7 +12,8 @@
 
 #index span {
     font-weight: 700;
-    color: green;
+    color:rgba(56, 95, 113, 100);
+    letter-spacing: 1px;
 }
 
 #index .grid1 .app img {
