@@ -6,7 +6,6 @@
 
 
 main{
-    background-color:  rgba(245, 240, 246, 1);
     margin-top: 10vw;
 
     /*
@@ -14,12 +13,12 @@ main{
 }
 
 body{
-    background-color:rgba(245, 240, 246, 1);
+    background-color:white;
 }
 
 h1{
     margin: 2vw;
-    color: rgba(56, 95, 113, 100);
+    color: #02695f;
     text-transform: uppercase;
 }
 
@@ -33,8 +32,7 @@ p{
 
 /* NAVBAR */
 .navbar {
-    
-    background-color: #41393e;
+    background-color:#02695f;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -54,7 +52,7 @@ p{
 }
 
 .navbar nav a {
-    color: white;
+    color: rgba(245, 240, 246, 1);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
@@ -142,7 +140,7 @@ start FLEXGRID*/
 
 footer {
     margin-top: 11vw;
-    background-color: #41393e;
+    background-color: rgb(34, 58, 70);
     font-size: 1.6vw;
 }
 
