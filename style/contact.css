@@ -25,3 +25,22 @@ width: 100%;
 #mail{
     color: rgb(75, 75, 75);
 }
+
+@media only screen and (max-width: 730px) {
+    #contact{
+        padding-top: 20vw;
+    }
+    #contact .app p, .counter p{
+        font-size: 5vw;
+    }
+
+    #contact .staff .app p{
+        letter-spacing: 1px;
+        color: #bb432b;
+        text-align: left;
+}
+#contact .grid1{
+    padding-bottom: 25vw;
+    padding-top: 10vw;
+}
+}

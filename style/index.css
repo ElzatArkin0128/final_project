@@ -36,5 +36,9 @@
     #index .app img{
         width: 70%;
     }
+
+    #index{
+        padding-top: 5vw;
+    }
 }
 
