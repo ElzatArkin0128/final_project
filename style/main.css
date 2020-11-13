@@ -11,7 +11,7 @@ main{
 }
 
 body{
-    background-color:white;
+    background-color: #F5F3F5;
 }
 
 h1{
@@ -30,7 +30,7 @@ p{
 
 /* NAVBAR */
 .navbar {
-    background-color: #013833;
+    background-color: #293F27;
     top: 0;
     width: 100%;
     z-index: 999;
@@ -78,6 +78,8 @@ p{
 }
 
 .navbar a:hover {
+    color: #293F27;
+    background-color: #F5F3F5;
     text-decoration: underline;
     position: block;
     transition: 0.3s;
@@ -143,7 +145,7 @@ start FLEXGRID*/
 
 footer {
     margin-top: 11vw;
-    background-color:#013833;
+    background-color:#293F27;
     font-size: 1.6vw;
 }
 
