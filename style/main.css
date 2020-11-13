@@ -11,7 +11,7 @@ main{
 }
 
 body{
-    background-color: #F5F3F5;
+    background-color: #ece9ec;
 }
 
 h1{
@@ -84,7 +84,7 @@ span {
 
 .navbar a:hover {
     color: #293F27;
-    background-color: #F5F3F5;
+    background-color: #ece9ec;
     text-decoration: underline;
     position: block;
     transition: 0.3s;
@@ -132,13 +132,13 @@ start FLEXGRID*/
 .sosial img:hover{
     -webkit-filter: invert(0);
     filter: invert(0);
-    background-color: white;
+    background-color: #ece9ec;
     border-radius: 20%;
     transition: 0.4s;
 }
 
 #copyright{
-  color:rgba(245, 240, 246, 1);
+  color:#ece9ec;
   font-size: 1.25vw;
   text-align: center;
   letter-spacing: 1px;
@@ -165,7 +165,7 @@ padding: 0 px;
 }
 
 footer h3{
-    color:rgba(245, 240, 246, 1);
+    color:#ece9ec;
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 1.5vw;
@@ -175,7 +175,7 @@ footer h3{
 
 footer .app a{
     font-size: 1.25vw;
-    color:  rgba(245, 240, 246, 1);
+    color: #ece9ec;
     letter-spacing: 2px;
     line-height: 1.9;
 }
@@ -193,7 +193,7 @@ ul li a:hover{
 }
 
 footer li{
-     color: rgba(245, 240, 246, 1);
+     color: #ece9ec;
      list-style: none;
      text-align: left;
 }
