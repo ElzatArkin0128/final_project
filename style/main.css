@@ -287,12 +287,20 @@ footer li{
 
     #rightalign h3, #rightalign, #coninfo ul li, #contactinfo, footer .app h3, #copyright{
         text-align: left;
+        font-size: 7vw;
         
     }
 
     footer, footer .app a, footer .app ul li, #copyright{
         font-size: 100%;
         letter-spacing: 3.5px;
+    }
+    #copyright{
+        font-size: 5vw;
+    }
+
+    .grid1  .sosial img{
+      margin-left: 0;
     }
 
     footer h3{
