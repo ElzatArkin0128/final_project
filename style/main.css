@@ -16,7 +16,7 @@ body{
 
 h1{
     margin: 2vw;
-    color: #02695f;
+    color: #293F27;
     text-transform: uppercase;
 }
 
@@ -54,16 +54,17 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: bolder;
+    font-weight: bold;
     display: inline-block;
     padding: 0px 30px;
     letter-spacing: 2px;
     margin: 0px;
+    
 }
 
 .menuButton {
     float: right;
-    line-height: 1px;
+    line-height: 6px;
     padding: 0px 20px;
     cursor: pointer;
     display: none;

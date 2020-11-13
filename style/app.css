@@ -1,5 +1,5 @@
 #app{
-    margin-top: 10vw;
+    margin-top: 5vw;
 }
 
 #app .grid1{
@@ -9,6 +9,8 @@
 
 #app .counter {
     margin-right: 10%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 #app .counter p {
@@ -16,12 +18,22 @@
     line-height: 1.8;
 }
 
+#app .app {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
 #app .app img {
     border-radius: 1.5vw;
-    max-width: 220px;
+    max-width: 190px;
 }
+
+#app_footer{
+    margin-top: 0;
+}
+
 .offset {
-    background-color: whitesmoke;
+    background-color: #ece9ec;
 }
 
 @media only screen and (max-width: 730px) {

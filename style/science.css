@@ -1,0 +1,27 @@
+#science .grid1 .app img {
+    margin-top: 3em;
+    width: 100%;
+}
+
+#science{
+    margin-top: 0px;
+}
+
+#vision {
+    text-align: center;
+}
+
+#vision img {
+    width: 100%;
+    z-index: -100;
+}
+
+#vision h1 {
+    margin-top: -32vw;
+    margin-bottom: 32vw;
+    letter-spacing: 2px;
+    color: #293F27;
+    font-weight: lighter;
+    font-size: 5vw;
+   text-shadow: 1px 1px lightgray;
+}

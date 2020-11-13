@@ -18,10 +18,10 @@ width: 100%;
 
 #contact .staff .app p{
     letter-spacing: 1px;
-    color: green;
+    color: #bb432b;
     text-align: center;
 }
 
 #mail{
-    color: black;
+    color: rgb(75, 75, 75);
 }
