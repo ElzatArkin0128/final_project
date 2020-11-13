@@ -115,7 +115,7 @@ start FLEXGRID*/
 
 .sosial img{
     width: 15%;
-    padding: 0.75%;
+    padding: 1%;
     -webkit-filter: invert(1);
     filter: invert(1);
 }
@@ -127,8 +127,7 @@ start FLEXGRID*/
 .sosial img:hover{
     -webkit-filter: invert(0);
     filter: invert(0);
-    color: darkgreen;
-    background-color: white;
+    background-color: #E2EFBE;
     border-radius: 20%;
     transition: 0.4s;
 }
