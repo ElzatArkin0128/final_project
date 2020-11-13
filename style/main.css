@@ -1,12 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-<<<<<<< Updated upstream
-    font-family: Arial, Helvetica, sans-serif;   
-    scroll-behavior: smooth;
-=======
     font-family: Arial, Helvetica, sans-serif;
->>>>>>> Stashed changes
+    scroll-behavior: smooth;
 }
 
 
@@ -116,8 +112,6 @@ start FLEXGRID*/
 }
 
 .sosial img{
-    margin-top: 1%;
-    margin-left: 1%;
     width: 15%;
     padding: 0.75%;
     -webkit-filter: invert(1);
@@ -180,11 +174,7 @@ footer .app a{
 }
 
 #contactinfo{
-<<<<<<< Updated upstream
 text-align: left;
-}  
-=======
-    text-align: left;
 }
 
 ul li a:hover{
@@ -194,7 +184,6 @@ ul li a:hover{
 #rightalign a:hover{
   color: salmon;
 }
->>>>>>> Stashed changes
 
 footer li{
      color: rgba(245, 240, 246, 1);
