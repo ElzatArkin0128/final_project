@@ -253,10 +253,7 @@ footer li{
         padding: 20px 0px;
     }
 
-    .navbar nav a:hover,
-    .navbar nav a:focus {
-        background-color: rgb(10, 10, 10);
-    }
+
 
     #checkbox {
         display: none;
