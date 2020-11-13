@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;   
+    scroll-behavior: smooth;
 }
 
 
 main{
     margin-top: 10vw;
-
-    /*
-    position: absolute;*/
 }
 
 body{
@@ -122,6 +120,10 @@ start FLEXGRID*/
     filter: invert(1);
 }
 
+.sosial a{
+    margin-left: 1.13em;
+}
+
 .sosial img:hover{
     background-color: rgba(245, 240, 246, 1);
     border-radius: 20%;
@@ -140,7 +142,7 @@ start FLEXGRID*/
 
 footer {
     margin-top: 11vw;
-    background-color:#324d2e;
+    background-color:#013833;
     font-size: 1.6vw;
 }
 
@@ -173,8 +175,7 @@ footer .app a{
 
 #contactinfo{
 text-align: left;
-}
-    
+}  
 
 footer li{
         color: rgba(245, 240, 246, 1);
