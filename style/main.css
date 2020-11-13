@@ -26,7 +26,11 @@ p{
     line-height: 3;
 }
 
-
+span {
+    font-weight: 700;
+    color: #bb432b;
+    letter-spacing: 1px;
+}
 
 /* NAVBAR */
 .navbar {
@@ -128,7 +132,7 @@ start FLEXGRID*/
 .sosial img:hover{
     -webkit-filter: invert(0);
     filter: invert(0);
-    background-color: #white;
+    background-color: white;
     border-radius: 20%;
     transition: 0.4s;
 }
@@ -204,18 +208,22 @@ footer li{
 
 /* Mediadel**********************************************************************************************/
 
-@media only screen and (max-width: 845px) {
+@media only screen and (max-width: 900px) {
     .navbar nav a {
         padding: 0px 15px;
     }
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 800px) {
     .menuButton {
         display: inline-block;
         width: 100px;
         height: 100%;
         position: relative;
+    }
+
+    main{
+        width: 100%;
     }
 
     .burger-bar {
@@ -276,17 +284,23 @@ footer li{
         display:block;
     }
 
-    .counter{/*
-        height:70vh;*/
-        width: 100%;
-    }
-
-    .app{/*
-        height: 120vh;*/
-        width: 100%;
-    }
-
     .navbar{
         position: fixed;
+    }
+
+    #rightalign h3, #rightalign, #coninfo ul li, #contactinfo{
+        text-align: center;
+    }
+
+    footer, footer .app a, footer .app ul li, #copyright{
+        font-size: 100%;
+    }
+
+    footer h3{
+        padding-top: 20%;
+    }
+
+    footer{
+        padding-bottom: 20%;
     }
 }

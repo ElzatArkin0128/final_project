@@ -10,11 +10,7 @@
     padding-top: 1.5vw;
 }
 
-#index span {
-    font-weight: 700;
-    color: #bb432b;
-    letter-spacing: 1px;
-}
+
 
 #index .grid1 .app img {
     margin-top: 3em;
@@ -25,4 +21,20 @@
     margin-top: 1vw;
 }
 
+@media only screen and (max-width: 900px){
+    #index .app p{
+        font-size: 4.5vw;
+        line-height: 2.5;
+        
+    }
+
+    #index .app h1{
+        padding-top: 18vw;
+        padding-bottom: 10vw;
+    }
+
+    #index .app img{
+        width: 70%;
+    }
+}
 
