@@ -24,8 +24,8 @@
 }
 
 #app .app img {
-    border-radius: 1.5vw;
     max-width: 190px;
+    padding-top: 2.5vw;
 }
 
 #app_footer{
@@ -54,10 +54,23 @@
 
     #app .app img {
         width: 95%;
+        padding-left: 20%;
+        padding-top: 10vw;
+        padding-bottom: 15vw;
     }
 
     #app .counter p {
         font-size: 5vw;
+        padding-left: 10%;
+        line-height: 2.5;
+    }
+
+    #app .counter h1{
+        padding-left: 10%;
+    }
+
+    #app{
+        padding-top: 5vw;
     }
 
 }

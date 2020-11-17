@@ -25,3 +25,23 @@
     font-size: 5vw;
    text-shadow: 1px 1px lightgray;
 }
+
+@media only screen and (max-width: 730px) {
+  #science{
+      padding-top: 80px;
+  }  
+  #science .grid1{
+    margin-top: 18vw;
+    margin-bottom: 10vw;
+}
+
+#science h1{
+    padding-bottom: 10vw;
+}
+
+
+#science .counter img{
+    width: 70%;
+}
+
+}
