@@ -7,23 +7,22 @@
     margin-top: 0px;
 }
 
-#vision {
-    text-align: center;
+#science .grid1{
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
-#vision img {
+#science .app{
+    margin-left: 0;
+}
+
+#science .grid1 .counter img{
     width: 100%;
-    z-index: -100;
+    margin-top: 5vw;
 }
 
-#vision h1 {
-    margin-top: -32vw;
-    margin-bottom: 32vw;
-    letter-spacing: 2px;
-    color: #293F27;
-    font-weight: lighter;
-    font-size: 5vw;
-   text-shadow: 1px 1px lightgray;
+#science #vision #arrowdown{
+    margin-bottom: 8em;
 }
 
 @media only screen and (max-width: 730px) {
