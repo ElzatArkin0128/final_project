@@ -327,6 +327,7 @@ footer li{
         left: 0px;
         display: none;
         background-color: rgb(25, 25, 25);
+        overflow: scroll;
     }
 
     .navbar nav a {
