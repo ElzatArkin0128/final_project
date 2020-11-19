@@ -15,12 +15,8 @@ window.addEventListener("resize", () => {
 checkbox.addEventListener("change", () => {
     if (checkbox.checked) {
         crossBurger();
-        $('main').addClass("fix-pos");
-        $('footer').addClass("fix-pos");
     } else {
         uncrossBurger();
-        $('main').removeClass("fix-pos");
-        $('footer').removeClass("fix-pos");
     }
 });
 
