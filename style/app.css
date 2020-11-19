@@ -1,5 +1,5 @@
 #app{
-    margin-top: 5vw;
+    margin-top: 0vw;
 }
 
 #app .grid1{
@@ -31,6 +31,8 @@
 #app_footer{
     margin-top: 0;
 }
+
+
 
 .offset {
     background-color: #ece9ec;
