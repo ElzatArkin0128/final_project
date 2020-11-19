@@ -15,8 +15,12 @@ window.addEventListener("resize", () => {
 checkbox.addEventListener("change", () => {
     if (checkbox.checked) {
         crossBurger();
+        $('main').addClass("fix-pos");
+        $('footer').addClass("fix-pos");
     } else {
         uncrossBurger();
+        $('main').removeClass("fix-pos");
+        $('footer').removeClass("fix-pos");
     }
 });
 
@@ -39,10 +43,4 @@ function uncrossBurger() {
     burgers[0].style.transform = "";
     burgers[1].style.transform = "";
     menu[0].style.visibility = "visible";
-}
-
-if (checkbox.checked){
-    $('main').addClass("fix-pos");
-} else{
-    $('main').removeClass("fix-pos");
 }
