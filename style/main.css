@@ -259,12 +259,8 @@ footer li{
 }
 
 #arrowdown a img, #arrowup a img{
-    
     width: 100%;
     border-radius: 5px;
-    /*padding-left: 47.5%;
-    padding-right: 47.5%;*/
-    /*opacity: 75%;*/
 }
 
 #arrowdown:hover, #arrowup:hover{
@@ -284,14 +280,15 @@ footer li{
     margin-bottom: 3em;
 }
 
-
 /* Mediadel**********************************************************************************************/
+
 
 @media only screen and (max-width: 900px) {
     .navbar nav a {
         padding: 0px 15px;
     }
 }
+
 
 @media only screen and (max-width: 800px) {
     p{
@@ -336,8 +333,6 @@ footer li{
         font-size: 1.5rem;
         padding: 20px 0px;
     }
-
-
 
     #checkbox {
         display: none;
@@ -410,17 +405,16 @@ footer li{
         width: 20%;
         margin-right: 40%;
         height: 20vw;
-    }
-
-    
-    @media only screen and (max-width: 300px){
-        .navbar a{
-            font-size: 7vw;
-        }
-
-        .navbar a sub{
-            font-size: 5vw;
-        }
-    }
-    
+    }   
 }
+
+
+@media only screen and (max-width: 300px){
+    .navbar a{
+        font-size: 7vw;
+    }
+
+    .navbar a sub{
+        font-size: 5vw;
+    }
+} 

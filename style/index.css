@@ -5,7 +5,7 @@
 }
 
 #index p {
-    font-size: 1.4vw;
+    font-size: 12pt;
     text-align: left;
     line-height: 2;
 
@@ -28,14 +28,6 @@
 #index #vision img {
     height: 50vw;
 }
-/*#arrowdown, #arrowup{
-    margin-top: -5.5vw;
-    width: 5%;
-    height: 5em;
-    text-align: center;
-    margin-left: 47.5%;
-    margin-right: 47.5%;
-}*/
 
 #index #vision #arrowdown{
     text-align: left;
@@ -43,8 +35,8 @@
     margin-left: 15%;
     margin-right: 80%;
     margin-bottom: 7.5vw;
-    
 }
+
 #index #vision #arrowdown:hover{
     opacity: 80%;
     margin-right: 79.5%;
@@ -61,7 +53,6 @@
 }
 
 #index #vision #logoInVision {
-  
     margin-left: 15%;
     width: 45%;
     margin-right: 40%;
@@ -79,9 +70,7 @@
 
 @media only screen and (max-width: 800px){
     #index .app p{
-        font-size: 4.5vw;
         line-height: 2.5;
-        
     }
 
     #index .app h1{
@@ -95,8 +84,5 @@
 
     #index{
         padding-top: 80px;
-    }
-
-    
+    } 
 }
-
