@@ -12,12 +12,6 @@ window.addEventListener("resize", () => {
     }
 });
 
-if (checkbox.checked){
-    $('body').addClass("fix-pos");
-} else{
-    $('body').removeClass("fix-pos");
-}
-
 checkbox.addEventListener("change", () => {
     if (checkbox.checked) {
         crossBurger();
@@ -45,4 +39,10 @@ function uncrossBurger() {
     burgers[0].style.transform = "";
     burgers[1].style.transform = "";
     menu[0].style.visibility = "visible";
+}
+
+if (checkbox.checked){
+    $('main').addClass("fix-pos");
+} else{
+    $('main').removeClass("fix-pos");
 }
