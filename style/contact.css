@@ -38,9 +38,16 @@ width: 100%;
         letter-spacing: 1px;
         color: #bb432b;
         text-align: left;
-}
-#contact .grid1{
-    padding-bottom: 25vw;
-    padding-top: 10vw;
-}
+      }
+    #contact .grid1{
+        padding-bottom: 25vw;
+        padding-top: 10vw;
+      }
+
+    #contact img.staffpics{
+        width:60%;
+        height:auto;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
 }
