@@ -18,11 +18,11 @@ width: 100%;
 
 #contact .staff .app p{
     letter-spacing: 1px;
-    color: #bb432b;
+    color:#771b07 ; 
     text-align: center;
 }
 
-#mail{
+.mail{
     color: rgb(75, 75, 75);
 }
 
@@ -37,7 +37,6 @@ width: 100%;
 
     #contact .staff .app p{
         letter-spacing: 1px;
-        color: #bb432b;
         text-align: left;
       }
     #contact .grid1{
