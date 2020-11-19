@@ -58,12 +58,12 @@
     #app .app img {
         width: 90%;
         margin-left: 15%;
-        padding-top: 10vw;
-        padding-bottom: 15vw;
+        padding-top: 0em;
+        padding-bottom: 3em;
     }
 
     #app .counter p {
-        font-size: 5vw;
+        font-size: 12pt;
         padding-left: 10%;
         line-height: 2.5;
     }
@@ -71,16 +71,19 @@
     #app .counter h1{
         padding-left: 10%;
         padding-top: 2.5em;
-        font-size: 9vw;
+        font-size: 20pt;
+    }
+
+    #app .counter #appTittel {
+        margin-bottom: 0.5em;
+        margin-top: -9vw;
     }
 
     #app{
-        padding-top: 5vw;
+        padding-top: 80px;
     }
 
-    #app #vision {
-        margin-bottom: -9em;
-    }
+    
 
 }
 
