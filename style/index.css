@@ -20,7 +20,7 @@
     text-align: left;
     margin-right: 60%;
     margin-left: 8%;
-    margin-top: -18vw;
+    margin-top: -24vw;
     margin-bottom: 0px;
     font-size: 3vw;
 }
@@ -58,6 +58,14 @@
     margin-top: 0.8em;
     height: auto;
     border-radius: 5px;
+}
+
+#index #vision #logoInVision {
+  
+    margin-left: 15%;
+    width: 45%;
+    margin-right: 40%;
+    height: auto;
 }
 
 #index .grid1 .app img {
