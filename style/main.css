@@ -23,7 +23,7 @@ h1{
 p{
     margin: 2vw;
     color: black;
-    line-height: 3;
+    line-height: 2;
 }
 
 span {
@@ -46,6 +46,18 @@ span {
     height: 100%;
     float: left;
     margin-left: 2vw;
+}
+.navbar a{
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    
+    margin-left: 3rem;
+}
+
+.navbar a sub {
+    font-size: 2rem;
 }
 
 .navbar nav {
@@ -82,7 +94,7 @@ span {
     display: none;
 }
 
-.navbar a:hover {
+.navbar nav a:hover {
     color: #293F27;
     background-color: #ece9ec;
     text-decoration: underline;
