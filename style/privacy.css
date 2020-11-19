@@ -5,3 +5,7 @@
 #privacy p {
     line-height: 1.5;
 }
+
+#current {
+    text-decoration: none;
+}
