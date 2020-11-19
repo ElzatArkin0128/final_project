@@ -397,5 +397,22 @@ footer li{
         display: none;
     }
 
+    #arrowup, #arrowup:active, #arrowup:hover{
+        margin-left: 40%;
+        width: 20%;
+        margin-right: 40%;
+        height: 20vw;
+    }
+
+    
+    @media only screen and (max-width: 300px){
+        .navbar a{
+            font-size: 7vw;
+        }
+
+        .navbar a sub{
+            font-size: 5vw;
+        }
+    }
     
 }
