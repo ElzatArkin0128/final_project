@@ -12,6 +12,12 @@ window.addEventListener("resize", () => {
     }
 });
 
+if (checkbox.checked){
+    $('body').addClass("fix-pos");
+} else{
+    $('body').removeClass("fix-pos");
+}
+
 checkbox.addEventListener("change", () => {
     if (checkbox.checked) {
         crossBurger();
