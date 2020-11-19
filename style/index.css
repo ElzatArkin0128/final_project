@@ -94,11 +94,9 @@
     }
 
     #index{
-        padding-top: 16vw;
+        padding-top: 80px;
     }
 
-    #vision h1, #vision #arrowdown{
-        display: none;
-    }
+    
 }
 

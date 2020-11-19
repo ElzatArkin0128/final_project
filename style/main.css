@@ -287,6 +287,10 @@ footer li{
 }
 
 @media only screen and (max-width: 800px) {
+    p{
+        font-size: 3vw;
+    }
+
     .menuButton {
         display: inline-block;
         width: 100px;
@@ -387,5 +391,9 @@ footer li{
 
     footer{
         padding-bottom: 20%;
+    }
+
+    #vision h1, #arrowdown{
+        display: none;
     }
 }
