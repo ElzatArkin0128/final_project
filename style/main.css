@@ -381,9 +381,12 @@ footer li{
 
     #copyright{
         font-size: 5vw;
+        
     }
 
     .grid1  .sosial img{
+      padding-top: 5%;
+      padding-bottom: 5%;
       margin-left: 0;
     }
 
