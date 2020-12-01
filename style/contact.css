@@ -22,6 +22,13 @@ width: 100%;
     text-align: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .mail{
     color: rgb(75, 75, 75);
 }
