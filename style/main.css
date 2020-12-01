@@ -312,8 +312,8 @@ footer li{
         height: 5px;
         background-color: white;
         margin: 15px 0px;
-        border-radius: 5px;
-        transition: 150ms ease;
+        border-radius: 2px;
+        transition: 200ms;
     }
 
     .navbar nav {
